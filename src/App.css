@@ -1,0 +1,45 @@
+#root {
+  max-width: auto;
+  text-align: center;
+}
+
+body {
+  background-image: url("./assets/img/vecteezy_ghost-pokemon-pattern_14022431.jpg"); /* Ruta relativa de la imagen en una subcarpeta llamada 'images' */
+  background-repeat: repeat;
+}
+
+main {
+  margin: 4rem auto;
+}
+
+.imgmain {
+  width: 500px;
+  margin: 2rem;
+}
+
+.welcome {
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* sombra */
+  -webkit-text-stroke: 1px purple;
+}
+
+.welcome-sub {
+  font-size: 35px;
+  color: green;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* sombra */
+  -webkit-text-stroke: 1px lightblue;
+}
+
+.alert {
+  font-size: 50px;
+  color: red;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* sombra */
+  -webkit-text-stroke: 1px white;
+}
+
+.imgerror {
+  width: 500px;
+  margin: 2rem;
+  border-radius: 5%;
+}

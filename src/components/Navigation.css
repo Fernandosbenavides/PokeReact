@@ -1,0 +1,30 @@
+.navigation {
+  background-color: rgba(111, 102, 149, 255);
+  color: white;
+}
+
+.active {
+  text-decoration: none;
+  color: white;
+  margin-right: 2rem;
+  font-size: 25px;
+}
+
+.active:after {
+  content: url("src/assets/img/gastlyicon.png");
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inactive {
+  text-decoration: none;
+  color: rgb(147, 147, 147);
+  margin-right: 2rem;
+  font-size: 20px;
+}
+
+img {
+  width: 35px;
+  margin-right: 10px;
+}
