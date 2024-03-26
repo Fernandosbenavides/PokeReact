@@ -1,0 +1,10 @@
+.pkmcard {
+  background-color: rgba(193, 201, 224, 255) !important;
+  border-color: rgba(124, 115, 158, 255) !important;
+  border-width: 3px !important;
+  border-style: solid !important;
+}
+
+.pkmname {
+  text-transform: capitalize;
+}

@@ -8,9 +8,13 @@ const Navigation = () => {
     <>
       <Navbar className="navigation">
         <Container>
-          <h1> <img src="src\assets\img\Pokebola-pokeball-png-0.png" alt="" />PokeReact</h1>
+          <h1>
+            {" "}
+            <img src="src\assets\img\Pokebola-pokeball-png-0.png" alt="" />
+            PokeReact
+          </h1>
           <Nav className="ms-auto">
-            <NavLink to="/" className= {setActiveClass}>
+            <NavLink to="/" className={setActiveClass}>
               Home
             </NavLink>
             <NavLink to="/pokemones" className={setActiveClass}>

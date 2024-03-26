@@ -7,7 +7,9 @@ const Home = () => {
         src="src\assets\img\pkmn-trainer.png"
         alt="Pokemon trainer"
       />
-      <h2 className="welcome-sub">Aqui podrás encontrar información muy util para tu viaje</h2>
+      <h2 className="welcome-sub">
+        Aqui podrás encontrar información muy util para tu viaje
+      </h2>
     </main>
   );
 };
